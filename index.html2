@@ -1,137 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Classroom Survival Guide: An Educator's Archive</title>
-
-    <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Arapey&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            background-color: #e3f2fd;  /* Pastel Blue */
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Title styling */
-        .custom-title {
-            text-align: center;
-            font-size: 38px;
-            font-weight: 600;
-            font-family: 'Playfair Display', serif;
-            margin-top: 50px;
-            margin-bottom: 80px;
-        }
-
-        /* Pocket layout and text with Arapey font */
-        .container, .row, .pocket-wrapper, .paper-tab, .pocket {
-            font-family: 'Arapey', serif;
-        }
-
-        /* Pocket layout */
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 80px;
-        }
-
-        .row {
-            display: flex;
-            justify-content: space-evenly;
-            gap: 40px;
-            width: 100%;
-            max-width: 1200px;
-        }
-
-        .pocket-wrapper {
-            position: relative;
-            width: 300px;
-            height: 360px;
-        }
-
-        .paper-tab {
-            position: absolute;
-            top: 0;
-            width: 100%;
-            height: 55px;
-            background: white;
-            border-radius: 12px 12px 0 0;
-            border: 1px solid #ccc;
-            text-align: center;
-            font-size: 18px;
-            font-weight: bold;
-            line-height: 55px;
-            z-index: 2;
-        }
-
-        .paper-tab a {
-            color: #4a148c;
-            text-decoration: none;
-            display: block;
-            width: 100%;
-            height: 100%;
-        }
-
-        .pocket {
-            position: absolute;
-            top: 45px;
-            width: 100%;
-            height: 300px;
-            background: linear-gradient(to bottom right, #f8c7d8, #d1b3ff);
-            border: 4px solid #b39ddb;
-            border-radius: 0 0 40px 40px;
-            text-align: center;
-            padding-top: 140px;
-            font-size: 20px;
-            font-weight: bold;
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classroom Survival Guide</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Basic styles for your layout */
+    body {
+      font-family: 'Arapey', serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      color: #4a148c;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .pocket-wrapper {
+      position: relative;
+      width: 250px;
+      height: 250px;
+      border-radius: 12px;
+      background: #d1b3ff;
+      padding: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+    .paper-tab {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 35px;
+      background: white;
+      border-radius: 8px 8px 0 0;
+      border: 1px solid #ccc;
+      text-align: center;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 35px;
+      z-index: 2;
+    }
+    .paper-tab a {
+      color: #4a148c;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .pocket {
+      position: absolute;
+      top: 45px;
+      width: 100%;
+      height: 180px;
+      background: linear-gradient(to bottom right, #f8c7d8, #d1b3ff);
+      border: 3px solid #b39ddb;
+      border-radius: 0 0 30px 30px;
+      text-align: center;
+      padding-top: 80px;
+      font-weight: bold;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    .pocket a {
+      color: #4a148c;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="custom-title">A Classroom Survival Guide: An Educator's Archive</div>
 
-    <!-- Pockets layout -->
-    <div class="container">
-        <div class="row">
-            <div class="pocket-wrapper">
-                <div class="paper-tab"><a href="files/file1.pdf" target="_blank">Teaching Textbook</a></div>
-                <div class="pocket">Teaching Textbook</div>
-            </div>
-            <div class="pocket-wrapper">
-                <div class="paper-tab"><a href="files/file2.pdf" target="_blank">Unit Lesson Plan</a></div>
-                <div class="pocket">Unit Lesson Plan</div>
-            </div>
-            <div class="pocket-wrapper">
-                <div class="paper-tab"><a href="files/file3.pdf" target="_blank">Teaching Philosophy</a></div>
-                <div class="pocket">Teaching Philosophy</div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="pocket-wrapper">
-                <div class="paper-tab"><a href="files/file4.pdf" target="_blank">Book List</a></div>
-                <div class="pocket">Book List</div>
-            </div>
-            <div class="pocket-wrapper">
-                <div class="paper-tab"><a href="files/file5.pdf" target="_blank">Course Reflection</a></div>
-                <div class="pocket">Course Reflection</div>
-            </div>
-            <div class="pocket-wrapper">
-                <div class="paper-tab"><a href="files/file6.pdf" target="_blank">All Assignments</a></div>
-                <div class="pocket">All Assignments</div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="pocket-wrapper">
-                <div class="paper-tab"><a href="files/file7.pdf" target="_blank">The End</a></div>
-                <div class="pocket">The End</div>
-            </div>
-        </div>
+  <h1 class="title">Classroom Survival Guide: An Educator's Archive</h1>
+
+  <div class="container">
+    <!-- Pocket 1: Teaching Textbook PDF -->
+    <div class="pocket-wrapper">
+      <div class="paper-tab"><a href="files/TeachingTextbook.pdf" target="_blank">Teaching Textbook</a></div>
+      <div class="pocket">
+        <a href="files/TeachingTextbook.pdf" target="_blank">Teaching Textbook</a>
+      </div>
     </div>
+
+    <!-- Pocket 2: Teaching Philosophy PDF -->
+    <div class="pocket-wrapper">
+      <div class="paper-tab"><a href="files/Teaching Philosophy.pdf" target="_blank">Teaching Philosophy</a></div>
+      <div class="pocket">
+        <a href="files/Teaching Philosophy.pdf" target="_blank">Teaching Philosophy</a>
+      </div>
+    </div>
+
+    <!-- Pocket 3: Invention Project PDF -->
+    <div class="pocket-wrapper">
+      <div class="paper-tab"><a href="files/InventionProject.pdf" target="_blank">Invention Project</a></div>
+      <div class="pocket">
+        <a href="files/InventionProject.pdf" target="_blank">Invention Project</a>
+      </div>
+    </div>
+
+    <!-- Pocket 4: Course Reflection PDF -->
+    <div class="pocket-wrapper">
+      <div class="paper-tab"><a href="files/Course Reflection.pdf" target="_blank">Course Reflection</a></div>
+      <div class="pocket">
+        <a href="files/Course Reflection.pdf" target="_blank">Course Reflection</a>
+      </div>
+    </div>
+
+    <!-- Pocket 5: Book List PDF -->
+    <div class="pocket-wrapper">
+      <div class="paper-tab"><a href="files/Book List.pdf" target="_blank">Book List</a></div>
+      <div class="pocket">
+        <a href="files/Book List.pdf" target="_blank">Book List</a>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
+
