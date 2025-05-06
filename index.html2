@@ -95,9 +95,9 @@
 
     <!-- Pocket 2: Teaching Philosophy PDF -->
     <div class="pocket-wrapper">
-      <div class="paper-tab"><a href="files/Teaching%20Philosophy.pdf" target="_blank">Teaching Philosophy</a></div>
+      <div class="paper-tab"><a href="files/Teaching Philosophy.pdf" target="_blank">Teaching Philosophy</a></div>
       <div class="pocket">
-        <a href="files/Teaching%20Philosophy.pdf" target="_blank">Teaching Philosophy</a>
+        <a href="files/Teaching Philosophy.pdf" target="_blank">Teaching Philosophy</a>
       </div>
     </div>
 
@@ -111,5 +111,22 @@
 
     <!-- Pocket 4: Course Reflection PDF -->
     <div class="pocket-wrapper">
-      <div class="paper-tab"><a href="files/Course%20Reflection.pdf" target="_blank">Course Reflection</a></div>
-      <
+      <div class="paper-tab"><a href="files/Course Reflection.pdf" target="_blank">Course Reflection</a></div>
+      <div class="pocket">
+        <a href="files/Course Reflection.pdf" target="_blank">Course Reflection</a>
+      </div>
+    </div>
+
+    <!-- Pocket 5: Book List PDF -->
+    <div class="pocket-wrapper">
+      <div class="paper-tab"><a href="files/Book List.pdf" target="_blank">Book List</a></div>
+      <div class="pocket">
+        <a href="files/Book List.pdf" target="_blank">Book List</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
